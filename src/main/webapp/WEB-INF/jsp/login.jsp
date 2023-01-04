@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Wellcome to login page</p>
+    <p>Wellcome to login page ${name}!</p>
 </body>
 </html>

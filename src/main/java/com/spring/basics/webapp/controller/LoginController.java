@@ -1,10 +1,13 @@
 package com.spring.basics.webapp.controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
-@RestController
+
+@Controller
 public class LoginController {
-    @GetMapping("/login")
-    public String loginMessage(){
-        return "Hello World!";
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String loginPage(){
+        return "login";
     }
 }

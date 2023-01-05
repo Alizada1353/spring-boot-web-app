@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h6>Hi ${name}</h6>
+    <h2>Hi ${name}</h2>
     <h4>Here are the list of your todos:</h4>
-    ${todos} 
+     ${todoList}
 	<BR/>
 </body>
 </html>

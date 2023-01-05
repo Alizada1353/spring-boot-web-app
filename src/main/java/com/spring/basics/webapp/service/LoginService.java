@@ -1,4 +1,4 @@
-package com.spring.basics.webapp.controller;
+package com.spring.basics.webapp.service;
 
 import org.springframework.stereotype.Component;
 

@@ -7,8 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="post">
-       Wellcome to Spring-boot Web Applicaiton ${name}! <a href="/list-todos">Click here to manage your Todos</a>
-    </form>
+    <h6>Hi ${name}</h6>
+    <h4>Here are the list of your todos:</h4>
+    ${todos} 
+	<BR/>
 </body>
 </html>
